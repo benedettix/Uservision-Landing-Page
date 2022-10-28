@@ -1,0 +1,81 @@
+.people {
+  text-align: center;
+  padding-bottom: 100px;
+  &__h3 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    color: $color-heading;
+  }
+  &__desc {
+    font-size: 16px;
+    color: $color-heading;
+    padding-bottom: 30px;
+  }
+
+  &__inner {
+    &__people {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 30px;
+      &__span {
+        font-size: 20px;
+        font-weight: bold;
+        padding: 10px;
+        flex: 1;
+        cursor: pointer;
+      }
+      &__active {
+        border-bottom: 3px solid $color-heading;
+      }
+    }
+    &__desc {
+      color: $color-primary;
+      font-size: 16px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    &__btn {
+      font-weight: 700;
+      font-size: 18px;
+      border: none;
+      outline: none;
+      background-color: transparent;
+      margin-bottom: 70px;
+      margin-top: 15px;
+      color: $color-heading;
+    }
+    &__wrap {
+      width: 100%;
+      // background-image: url("/src/img/laptop.png");
+      // background-size: cover;
+      // background-position: 0 -170px;
+      // background-repeat: no-repeat;
+      // padding: 275px;
+      position: relative;
+
+      img {
+        width: 100%;
+
+        // @media only screen and (max-width: $bp-small) {
+        //   width: 62%;
+        //   position: absolute;
+        //   left: 75px;
+        //   top: 15px;
+        //   height: 79%;
+        // }
+      }
+      video {
+        width: 100%;
+
+        // @media only screen and (max-width: $bp-small) {
+        //   width: 62%;
+        //   position: absolute;
+        //   left: 75px;
+        //   top: 15px;
+        //   height: 79%;
+        // }
+      }
+    }
+  }
+}

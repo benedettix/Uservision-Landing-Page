@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/97b47c586a.js" crossorigin="anonymous"></script>
+    <script defer src="/src/js/index.js"></script>
+    <title>Uservision</title>
+</head>
+
+<body>
+    <!-- HEADER SECTION -->
+    <header class="header">
+        <div class="container">
+            <nav class="header__navbar">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-sm-4">
+                        <a href="/"><img src="/src/img/logo.png" alt="logo" class="header__navbar__logo"></a>
+                    </div>
+
+                    <div class="col-sm-6 ">
+                        <div class="hamburger-btn">
+                            <i onclick="openIt(event)" class="fa-solid fa-bars"></i>
+                            <i onclick="closeIt(event)" style="display: none;" class="fa-solid fa-xmark"></i>
+                        </div>
+                        <ul class="header__navbar__list">
+                            <a href="#">
+                                <li>Platform</li>
+                            </a>
+                            <a href="#">
+                                <li>Danışmanlık</li>
+                            </a>
+                            <a href="#">
+                                <li>Vaka Analizi</li>
+                            </a>
+                            <a href="#">
+                                <li>Blog</li>
+                            </a>
+                            <a href="#">
+                                <li>İşe Alım</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="col-sm-2 justify-content-end d-flex">
+                        <p class="header__navbar__name">Ara Katlin</p>
+                        <p class="header__navbar__country">TR <i class="fa-solid fa-caret-down"></i></p>
+                    </div>
+                </div>
+            </nav>
+            <div class="row">
+                <div class="col-md-8">
+                    <h1 class="header__h1"><span class="rainbow" id="changingWord">Pazarlama</span> için
+                        tüketicileri anlıyoruz
+                    </h1>
+                    <p class="header__desc">Uservision’ın yazılımlarını kullanarak veya global araştırmacı ekibinden
+                        yararlanarak
+                        tüketicilerden geri bildirim toplayın. İhtiyaçlarınızı ve problemlerinizi anlayarak sizin için
+                        ücretsiz
+                        bir
+                        yol haritası çıkaralım.
+                    </p>
+                </div>
+                <div class="col-md-4 position-relative">
+                    <button class="header__btn">Yol Haritası Çıkar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- HEADER SECTION ENDS -->
+    <!-- LOGOS SECTION -->
+    <div class="logos">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-6 logos__wrapper order-2 order-md-1">
+                    <div class="logos__wrapper__logo">
+                        <img src="/src/img/landing/logos/TR - WILL BE USED/Akbank.svg" alt="logo">
+                    </div>
+                    <div class="logos__wrapper__logo">
+                        <img src="/src/img/landing/logos/TR - WILL BE USED/Allianz.svg" alt="logo">
+                    </div>
+                    <div class="logos__wrapper__logo">
+                        <img src="/src/img/landing/logos/TR - WILL BE USED/AvivaSA.svg" alt="logo">
+                    </div>
+                    <div class="logos__wrapper__logo">
+                        <img src="/src/img/landing/logos/TR - WILL BE USED/BBVA.svg" alt="logo">
+                    </div>
+                    <div class="logos__wrapper__logo">
+                        <img src="/src/img/landing/logos/TR - WILL BE USED/BNP_Paribas_Cardif.svg" alt="logo">
+                    </div>
+                    <div class="logos__wrapper__logo">
+                        <img src="/src/img/landing/logos/TR - WILL BE USED/Ernst_Young_EY.svg" alt="logo">
+                    </div>
+                    <div class="logos__wrapper__logo">
+                        <img src="/src/img/landing/logos/TR - WILL BE USED/Grey_Group_Germany_logo.svg" alt="logo">
+                    </div>
+                    <div class="logos__wrapper__logo">
+                        <img src="/src/img/landing/logos/TR - WILL BE USED/Hepsiburada.svg" alt="logo">
+                    </div>
+                    <div class="logos__wrapper__logo">
+                        <img src="/src/img/landing/logos/TR - WILL BE USED/Jagermeister.svg" alt="logo">
+                    </div>
+                    <div class="logos__wrapper__logo">
+                        <img src="/src/img/landing/logos/TR - WILL BE USED/Letgo.svg" alt="logo">
+                    </div>
+                    <div class="logos__wrapper__logo">
+                        <img src="/src/img/landing/logos/TR - WILL BE USED/Migros.svg" alt="logo">
+                    </div>
+                    <div class="logos__wrapper__logo">
+                        <img src="/src/img/landing/logos/TR - WILL BE USED/Milliyet.svg" alt="logo">
+                    </div>
+                    <div class="logos__wrapper__logo">
+                        <img src="/src/img/landing/logos/TR - WILL BE USED/Nike.svg" alt="logo">
+                    </div>
+                    <div class="logos__wrapper__logo">
+                        <img src="/src/img/landing/logos/TR - WILL BE USED/Reckitt.svg" alt="logo">
+                    </div>
+                    <div class="logos__wrapper__logo">
+                        <img src="/src/img/landing/logos/TR - WILL BE USED/Remax.svg" alt="logo">
+                    </div>
+                    <div class="logos__wrapper__logo">
+                        <img src="/src/img/landing/logos/TR - WILL BE USED/T�rk Telekom.svg" alt="logo">
+                    </div>
+                    <div class="logos__wrapper__logo">
+                        <img src="/src/img/landing/logos/TR - WILL BE USED/UNICEF_Logo.svg" alt="logo">
+                    </div>
+                </div>
+                <div class="col-md-6 order-1 order-md-2">
+                    <div class="logos__para">
+                        <h3>Kiminle Çalışıyoruz?
+                        </h3>
+                        <p>50+ kurumsal marka, ajans, start-up, sivil toplum örgütü ve devlet kurumuna hedef kitlelerini
+                            anlamaları için yol gösteriyoruz.
+                        </p>
+                    </div>
+                    <div class="logos__para">
+                        <h3>Nerede Faaliyet Gösteriyoruz?
+                        </h3>
+                        <p>Türkiye başta olmak üzere, tüm Avrupa, Amerika ve Orta Doğuda aktif olarak çalışıyoruz.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- LOGOS SECTION ENDS-->
+    <!-- PEOPLE SECTION -->
+    <div class="people">
+        <div class="container">
+            <h3 class="people__h3">Nasıl Çalışıyoruz?</h3>
+            <p class="people__desc">Araştırmalarınızın ister hepsini, ister yalnızca belli bir kısmını Uservision ile
+                yönetin
+            </p>
+            <div class="people__inner">
+                <div class="people__inner__people">
+                    <span onclick="changePeople(event)"
+                        class="people__inner__people__span people__inner__people__active">Kullanıcı Hedefleme</span>
+                    <span onclick="changePeople(event)" class="people__inner__people__span">Veri Toplama</span>
+                    <span onclick="changePeople(event)" class="people__inner__people__span">Veri Analizi</span>
+                </div>
+                <p class="people__inner__desc">
+                    Uservision platformu ile, paneller, dijital veri partnerlikleri ve dijital reklamlar ile tüm
+                    dünyadan en
+                    niş kullanıcılar hızlıca hedeflenebilir.
+                </p>
+                <button class="people__inner__btn"> Detaylı Bilgi </button>
+                <div class="people__inner__wrap">
+                    <img src="/src/img/landing/Nasıl Çalışıyoruz_ Area Photos/1-Kullanıcı Hedefleme.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- OVU GORNJU SEKCIJU POGLEDATI TREBA SE URADI SA JAVASCRIPTO DODAVANJE -->
+    <!-- PEOPLE SECTION ENDS-->
+    <!-- DIFFRENTS SECTION -->
+    <div class="diffrents">
+        <div class="container">
+            <h3 class="diffrents__h3">Farkımız
+            </h3>
+            <p class="diffrents__desc">Uservision uzaktan çalışan, global araştırma metodolojileri ve teknolojiler
+                üreten ve
+                interdisipliner araştırmacılar ile araştırma yapan Türkiye’deki tek firmadır.
+            </p>
+            <div class="row">
+                <div class="col-md-5 diffrents__img ">
+                    <div class="diffrents__img__overlay">
+                        <div class="diffrents__img__overlay__inner">
+                            <h6 class="diffrents__img__overlay__inner__h6">İnterdisipliner Ekip</h6>
+                            <p class="diffrents__img__overlay__inner__desc">Bir araştırma ihtiyacı, sosyoloji,
+                                psikoloji, davranışsal
+                                psikoloji, geleneksel pazar araştırması, müşteri deneyimi, kullanıcı deneyimi, strateji
+                                danışmanlığı gibi farklı perspektiflerden, bütünsel bir bakış açısıyla incelenir.
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </p>
+                        </div>
+                        <div class="diffrents__img__overlay__inner">
+                            <h6 class="diffrents__img__overlay__inner__h6">Yayınlanmış Metotlar</h6>
+                            <p class="diffrents__img__overlay__inner__desc">Uservision insan odaklı araştırma ve çevik
+                                araştırma
+                                başlıklı araştırma metodolojileri geliştirmiş ve bu metodolojiler ile global mecralarda
+                                ödül
+                                almıştır. Metotlar yurtdışında QRCA ve Greenbook mecralarında yayınlanmıştır.
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </p>
+                        </div>
+                        <div class="diffrents__img__overlay__inner">
+                            <h6 class="diffrents__img__overlay__inner__h6">Aksiyon ve Sonuç Odaklı Çıktılar</h6>
+                            <p class="diffrents__img__overlay__inner__desc">Uservision sonuçları ortaya koymadan önce,
+                                çalıştığı
+                                kurumun ihtiyaçlarını, problemlerini, konumlanmasını ve hedeflerini öğrenir. Akabinde
+                                çıktılarını markanın kolayca kullanabileceği ve aksiyon alabileceği şekilde raporlar.
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </p>
+                        </div>
+                    </div>
+                    <img src="/src/img/const.svg" alt="const">
+                    <p class="diffrents__img__heading">DANIŞMANLIK
+                    </p>
+                </div>
+                <div class="col-md-5 diffrents__img ">
+                    <div class="diffrents__img__overlay">
+                        <div class="diffrents__img__overlay__inner">
+                            <h6 class="diffrents__img__overlay__inner__h6">Katılımcı Hedefleme</h6>
+                            <p class="diffrents__img__overlay__inner__desc">Bütün dünyadan dijital altyapılar
+                                kullanılarak
+                                hızlı ve
+                                yeni kullanıcılara ulaşın <i class="fa-solid fa-arrow-right"></i>
+                            </p>
+                        </div>
+                        <div class="diffrents__img__overlay__inner">
+                            <h6 class="diffrents__img__overlay__inner__h6">Uservision Platformu</h6>
+                            <p class="diffrents__img__overlay__inner__desc">İster kendi, ister Uservision katılımcıları
+                                ile,
+                                kalitatif ve UX araştırmaları için uzaktan görüşmeler yapın, transkript çıkarın ve
+                                platfrom
+                                üzerinden analiz edin.
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </p>
+                        </div>
+                        <div class="diffrents__img__overlay__inner">
+                            <h6 class="diffrents__img__overlay__inner__h6">Survey+</h6>
+                            <p class="diffrents__img__overlay__inner__desc">Anket çıktılarını kullanıcı bazlı kayıt
+                                altına
+                                alın, bu
+                                şekilde aynı soruları aynı katılımcılara tekrar tekrarda sormayın. İster kendi, ister
+                                Uservision katılımcılarına ulaşın.
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </p>
+                        </div>
+                    </div>
+                    <img src="/src/img/tech.svg" alt="tech">
+                    <p class="diffrents__img__heading">TEKNOLOJİ
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- DIFFRENTS SECTION ENDS-->
+    <!-- CAROUSEL SECTION -->
+    <div class="carousel">
+        <div class="container wrapper">
+            <i onclick="moveSlider('left')" class="fa-solid fa-chevron-left left"></i>
+            <i onclick="moveSlider('right')" class="fa-solid fa-chevron-right right"></i>
+            <div class="carousel__blogside">
+                <div class="carousel__card  ">
+                    <div class="carousel__card__heading">&#10077</div>
+                    <div class="carousel__card__desc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt eaque, iure inventore ex illo
+                        nisi libero deleniti reprehenderit est veniam laboriosam delectus similique magnam magni. Quasi
+                        magni commodi eius quia vel fuga voluptates sequi ipsum. Sunt aperiam nihil fuga doloribus!
+                    </div>
+                    <h3>Lorem ipsum</h3>
+                </div>
+                <div class="carousel__card ">
+                    <div class="carousel__card__heading">&#10077</div>
+                    <div class="carousel__card__desc carousel__card__desc__active">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt eaque, iure inventore ex illo
+                        nisi libero deleniti reprehenderit est veniam laboriosam delectus similique magnam magni. Quasi
+                        magni commodi eius quia vel fuga voluptates sequi ipsum. Sunt aperiam nihil fuga doloribus!
+                    </div>
+                    <h3>Lorem ipsum</h3>
+                </div>
+                <div class="carousel__card">
+                    <div class="carousel__card__heading">&#10077</div>
+                    <div class="carousel__card__desc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt eaque, iure inventore ex illo
+                        nisi libero deleniti reprehenderit est veniam laboriosam delectus similique magnam magni. Quasi
+                        magni commodi eius quia vel fuga voluptates sequi ipsum. Sunt aperiam nihil fuga doloribus!
+                    </div>
+                    <h3>Lorem ipsum</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- CAROUSEL SECTION ENDS-->
+    <!-- STUDIES SECTION -->
+    <div class="studies">
+        <div class="container">
+            <h3>Case Studies</h3>
+            <div class="row">
+                <div class="col-md-4 ">
+                    <div class="studies__generaloverlay ">
+                        <img src="/src/img/studies.jpg" alt="">
+                        <h4>Case Studies</h4>
+                        <p>Tumunu incele <i class="fa-solid fa-arrow-right"></i></p>
+                    </div>
+                </div>
+                <div class="col-md-2 me-5">
+                    <div class="studies__overlay ">
+                        <img src="/src/img/genz.jpg" alt="">
+                        <h4>Uservision genz report</h4>
+                    </div>
+                    <div class="studies__overlay">
+                        <img src="/src/img/card.jpg" alt="">
+                        <h4>Mapping the credit</h4>
+                    </div>
+                </div>
+                <div class="col-md-2 me-5">
+                    <div class="studies__overlay">
+                        <img src="/src/img/buisness.webp" alt="">
+                        <h4>Levaraging</h4>
+                    </div>
+                    <div class="studies__overlay">
+                        <img src="/src/img/gum.jpg" alt="">
+                        <h4>Finding the comp edge</h4>
+                    </div>
+                </div>
+                <div class="col-md-2 me-5">
+                    <div class="studies__overlay">
+                        <img src="/src/img/highly.jpg" alt="">
+                        <h4>Reaching highly</h4>
+                    </div>
+                    <div class="studies__overlay">
+                        <img src="/src/img/adults.jpg" alt="">
+                        <h4>Usage</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- STUDIES SECTION ends-->
+    <!-- UPDATES SECTION -->
+    <div class="updates">
+        <h3 class="updates__h3">Uservision Bülten</h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <iframe src="https://www.youtube.com/embed/WIeRcFm7BDo" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <p class="updates__desc">Aylık olarak yayınlanan Uservision bültenlerinde hem endüstri ve toplum ile
+                        ilgili kendi içgörülerimizi hem de enteresan haberleri paylaşıyoruz. Eski bültenlerden örnekler
+                        için burayı tıklayabilirsiniz.
+                    </p>
+                    <form action="#">
+                        <div class="label">
+                            <label for="first-lastname">Ad Soyad</label>
+                            <input type="text" class="updates__name" name="first-lastname">
+                        </div>
+                        <div class="label">
+                            <label for="email">Email</label>
+                            <input type="text" class="updates__email" name="email">
+                        </div>
+                        <button class="updates__btn">Bültene Üye Ol</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- UPDATES SECTION ENDS-->
+    <!-- FOOTER SECTON -->
+    <footer class="footer">
+        <div class="container">
+            <a href="/"> <img class="footer__img" src="/src/img/logo.png" alt="logo"></a>
+            <div class="row down_line">
+                <div class="col-md-3">
+                    <p class="footer__heading">Turkiye</p>
+                    <p class="footer__desc">Esentepe telatpasa Caddesi no:5</p>
+                </div>
+                <div class="col-md-3">
+                    <p class="footer__heading">MENA</p>
+                    <p class="footer__desc">Office 103B, First floor</p>
+                </div>
+                <div class="col-md-6 ">
+                    <a href="mailto:info@user.vision">
+                        <h3 class="footer__email">info@user.vision</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="row border-top">
+                <div class="col-md-6">
+                    <div class="copyright">
+                        <p>Copyright: &copy; 2022 USERVISION, All Rights Reserved</p>
+                    </div>
+                </div>
+                <div class="col-md-6 align-items-end justify-content-end d-flex">
+                    <a href="#"><i class="fa-brands fa-facebook icon"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram icon"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin icon"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER SECTON ENDS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+</body>
+
+</html>

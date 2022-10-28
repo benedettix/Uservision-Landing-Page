@@ -1,0 +1,2 @@
+.rainbow{-webkit-animation:rainbow 5s infinite;animation:rainbow 5s infinite;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite}@-webkit-keyframes rainbow{100%,15%{color:#23719b}91%{color:#0c202b}}@keyframes rainbow{100%,15%{color:#23719b}91%{color:#0c202b}}
+/*# sourceMappingURL=rainbow.min.css.map */

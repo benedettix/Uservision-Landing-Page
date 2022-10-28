@@ -1,0 +1,76 @@
+.carousel {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+  height: 900px;
+  @media only screen and (max-width: $bp-medium) {
+    display: none;
+  }
+  .wrapper {
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+  }
+  i {
+    position: absolute;
+    top: 50%;
+    font-size: 60px;
+    transform: translate(0, -100%);
+    padding: 35px;
+    cursor: pointer;
+    z-index: 999;
+    transition: 0.2s all ease-in-out;
+    &:hover {
+      background-color: #eff1f970;
+      border-radius: 15px;
+    }
+  }
+  .left {
+    left: 0%;
+  }
+  .right {
+    right: 0%;
+  }
+
+  &__card {
+    background-color: #eff1f9;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 15px;
+    position: relative;
+    transition: 0.5s all ease-in-out;
+    &__heading {
+      background-color: #eff1f9;
+      border: white 30px solid;
+      border-radius: 50%;
+      font-size: 80px;
+      width: 150px;
+      height: 150px;
+      margin: 0 auto;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      transform: translate(50%, -50%);
+      top: 0;
+    }
+    &__desc {
+      padding-top: 100px;
+      line-height: 1.9;
+      font-size: 16px;
+      color: $color-primary;
+      padding-bottom: 70px;
+      transition: 0.5s all ease-in-out;
+      &__active {
+        padding-bottom: 170px;
+        //   position: absolute;
+      }
+    }
+  }
+  &__blogside {
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+  }
+}

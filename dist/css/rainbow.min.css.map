@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,AAAC,CACP,SAAS,CAAE,mBAAmB,CAC9B,yBAAyB,CAAE,QAAQ,CACpC,AAED,UAAU,CAAV,OAAU,CACR,IAAI,CACJ,GAAG,CACD,KAAK,CAAE,OAAiB,CAE1B,GAAG,CACD,KAAK,CAAE,OAAO",
+    "sources": [
+        "../../src/scss/helpers/rainbow.scss"
+    ],
+    "names": [],
+    "file": "rainbow.min.css"
+}

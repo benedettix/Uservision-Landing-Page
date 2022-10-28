@@ -1,0 +1,14 @@
+.rainbow {
+  animation: rainbow 5s infinite;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rainbow {
+  100%,
+  15% {
+    color: rgb(35, 113, 155);
+  }
+  91% {
+    color: #0c202b;
+  }
+}

@@ -1,0 +1,109 @@
+.diffrents {
+  text-align: center;
+  padding-bottom: 100px;
+
+  &__h3 {
+    color: $color-heading;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 15px;
+  }
+
+  &__desc {
+    color: $color-primary;
+    font-size: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+  }
+
+  &__img {
+    background-color: #f4f4f4;
+    border-radius: 15px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    transition: 0.4s all ease-in-out;
+    cursor: pointer;
+    height: 600px;
+
+    &:hover {
+      .diffrents__img__overlay {
+        position: relative;
+        // padding: 60px;
+        opacity: 1;
+      }
+
+      img {
+        opacity: 0;
+        display: none;
+      }
+      .diffrents__img__heading {
+        opacity: 0;
+      }
+    }
+    &__overlay {
+      opacity: 0;
+      // position: absolute;
+      padding: 25px;
+      height: 100%;
+      width: 100%;
+      transition: 0.2s all ease-in-out;
+      display: block;
+      top: 0%;
+      left: 0;
+
+      &__inner {
+        text-align: left;
+        padding-bottom: 30px;
+        display: block;
+        max-width: 100%;
+        transition: 0.2s all ease-in-out;
+        padding: 15px;
+        &:hover {
+          background-color: #f0f0f0;
+
+          border-radius: 15px;
+          i {
+            color: rgb(0, 73, 168);
+          }
+        }
+
+        &__h6 {
+          font-size: 16px;
+          color: $color-heading;
+          font-weight: bold;
+        }
+        &__desc {
+          font-size: 16px;
+          color: $color-desc;
+
+          i {
+            font-size: 35px;
+            float: right;
+            color: $color-heading;
+            padding: 10px;
+          }
+        }
+      }
+    }
+    &__heading {
+      font-size: 18px;
+      color: $color-heading;
+      font-weight: bold;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    img {
+      opacity: 1;
+      width: 400px;
+      height: 400px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
